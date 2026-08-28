@@ -109,6 +109,7 @@ function renderStats() {
 
 function renderMsg(message, color) {
     // Function for rendering messages
+    msg.classList.remove("hidden");
     msg.textContent = message;
     msg.style.color = color;
 
@@ -125,7 +126,6 @@ function renderMsg(message, color) {
 
 function addBook() {
     // Function for adding a book
-    msg.innerHTML = "";
     const bookTitle = bookInput.value.trim();
     const bookAuthor = authorInput.value.trim();
 
