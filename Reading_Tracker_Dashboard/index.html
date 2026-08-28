@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reading Tracker Dashboard</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <h1>My Reading Tracker</h1>
+        <input type="text" id="bookInput" placeholder="Enter book title" required>
+        <input type="text" id="authorInput" placeholder="Enter author" required>
+        <button id="addBtn" class="btn">Add</button>
+        <div id="msg"></div>
+        <div id="bookList"></div>
+        <div id="bottom-list-controls">
+            <div id="filterDiv">
+                <p>Filter by:</p>
+                <select id="filterSelect">
+                    <option value="All">All</option>
+                    <option value="Reading">Reading</option>
+                    <option value="Read">Read</option>
+                </select>
+                <button id="filterBtn" class="btn">Filter</button>
+            </div>
+            <div id="statsDiv"></div>
+            <button id="clearBtn" class="btn">Clear All</button>
+        </div> 
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
