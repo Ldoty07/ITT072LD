@@ -1,0 +1,86 @@
+:root {
+  --max: 70rem;
+  --bg: #f7f0ee;
+  --color: #0a1512;
+  --border: 2px solid #1b2b30;
+  --hover: #2a423c;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  position: sticky;
+  border-bottom: var(--border);
+  top: 0;
+  z-index: 10;
+  background-color: var(--bg);
+  padding-bottom: 0.3rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color);
+}
+
+nav a:hover {
+  color: var(--hover);
+}
+
+h1 {
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+footer {
+  font-size: 0.7rem;
+  font-style: italic;
+  border-top: var(--border);
+  text-align: center;
+}
+
+/* Classes */
+
+.goalCard {
+  border: var(--border);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  max-width: 15rem;
+}
+
+.goalCard:hover {
+  background-color: #f1ded9;
+  transform: translateY(-6px);
+}
+
+/* IDs */
+
+#container {
+  max-width: var(--max);
+  margin-left: 5rem;
+}
+
+#welcomeMsg {
+  text-align: center;
+}
+
+#about {
+  text-align: center;
+}
+
+#goalsContainer {
+  display: flex;
+  flex-direction: column;
+}
