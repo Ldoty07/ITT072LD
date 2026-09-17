@@ -1,0 +1,35 @@
+#container {
+  max-width: var(--max);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#heroImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: var(--space1);
+}
+
+.menuListSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 50rem;
+  margin-left: 1.5rem;
+}
+
+.menuItem {
+  width: 13rem;
+  border: 1px solid var(--border);
+  padding: var(--space2);
+}
+
+.menuItem:hover {
+  background-color: var(--hover);
+}
+
+.price {
+  font-weight: bold;
+}

@@ -1,0 +1,41 @@
+:root {
+  --max: 48rem;
+  --text: #111111;
+  --bg: #f9f9f9;
+  --border: #a4a4a4;
+  --space1: 0.5rem;
+  --space2: 1rem;
+  --space3: 2rem;
+  --hover: #faf0f0;
+}
+
+body {
+  color: var(--text);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg);
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  padding: var(--space3);
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-top: var(--space2);
+  padding-bottom: var(--space2);
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+footer {
+  font-style: italic;
+  font-size: 0.7rem;
+  text-align: center;
+  border-top: 1px solid var(--border);
+  margin-top: var(--space1);
+}
