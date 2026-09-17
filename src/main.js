@@ -1,5 +1,5 @@
 // Import styles
-import './style.css'
+import './src/style.css'
 
 // Import render functions
 import { renderGoals } from './render.js'
