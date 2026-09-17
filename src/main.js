@@ -2,14 +2,14 @@
 import './src/style.css'
 
 // Import render functions
-import { renderGoals } from './src/render.js'
-import { renderSkillsIHave } from './src/render.js'
-import { renderSkillsToLearn } from './src/render.js'
+import { renderGoals } from '../src/render.js'
+import { renderSkillsIHave } from '../src/render.js'
+import { renderSkillsToLearn } from '../src/render.js'
 
 // Import data
-import { goals } from './src/data.js'
-import { skillsIHave } from './src/data.js'
-import { skillsToLearn } from './src/data.js'
+import { goals } from '../src/data.js'
+import { skillsIHave } from '../src/data.js'
+import { skillsToLearn } from '../src/data.js'
 
 // Define containers
 const goalsContainer = document.querySelector("#goalsContainer");
