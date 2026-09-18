@@ -26,6 +26,7 @@ h2 {
   font-size: 2rem;
   padding-top: var(--space2);
   padding-bottom: var(--space2);
+  margin-left: 1.4rem;
 }
 
 h3 {

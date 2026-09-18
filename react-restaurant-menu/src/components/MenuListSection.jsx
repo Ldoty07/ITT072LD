@@ -3,9 +3,13 @@ import MenuItem from "./MenuItem"
 function MenuListSection({ menuItems }) {
     return (
         <div className="menuListSection">
-            { menuItems.map(item =>
-                MenuItem(item.name, item.description, item.price)
-            )}
+            { menuItems.map(item => (
+                <MenuItem
+                    name={item.name}
+                    description={item.description}
+                    price={item.price}
+                />
+            ))}
         </div>
     )
 }
