@@ -1,6 +1,3 @@
-// Import styles
-import './src/style.css'
-
 // Import render functions
 import { renderGoals } from '../src/render.js'
 import { renderSkillsIHave } from '../src/render.js'
